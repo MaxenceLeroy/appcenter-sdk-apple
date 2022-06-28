@@ -2508,7 +2508,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9A91FBB230C01140068070D /* Build configuration list for PBXNativeTarget "AppCenter iOS Framework" */;
 			buildPhases = (
-				C2CB276A230EDE990076A4E0 /* Verify No Build Settings */,
 				C9A91FB1230C01140068070D /* Headers */,
 				C9A91FB2230C01140068070D /* Sources */,
 				C9A91FB3230C01140068070D /* Frameworks */,
@@ -2953,25 +2952,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$SRCROOT/../Scripts/copy-products.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2CB276A230EDE990076A4E0 /* Verify No Build Settings */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Verify No Build Settings";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Scripts/VerifyNoBuildSettings.swift\" ${PROJECT_NAME}.xcodeproj/project.pbxproj\n";
 			showEnvVarsInLog = 0;
 		};
 		C2CB276B230EDEC30076A4E0 /* Verify No Build Settings */ = {

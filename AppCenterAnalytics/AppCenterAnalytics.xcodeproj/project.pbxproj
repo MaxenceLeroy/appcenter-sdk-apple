@@ -1086,7 +1086,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9CA69E02306CAF700EE82AA /* Build configuration list for PBXNativeTarget "AppCenterAnalytics iOS Framework" */;
 			buildPhases = (
-				C2D73CD7230FC74C00390198 /* Verify No Build Settings */,
 				C9CA69D42306CAF700EE82AA /* Headers */,
 				C9CA69D52306CAF700EE82AA /* Sources */,
 				C9CA69D62306CAF700EE82AA /* Frameworks */,
@@ -1483,25 +1482,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$SRCROOT/../Scripts/combine-xcframework.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2D73CD7230FC74C00390198 /* Verify No Build Settings */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Verify No Build Settings";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Scripts/VerifyNoBuildSettings.swift\" ${PROJECT_NAME}.xcodeproj/project.pbxproj\n";
 			showEnvVarsInLog = 0;
 		};
 		C2D73CD8230FC75800390198 /* Verify No Build Settings */ = {
